@@ -1,0 +1,56 @@
+body {
+  background: #333333;
+  padding: 25px;
+}
+
+a {
+  color: #06c;
+}
+
+a:hover {
+  color: #F87F21;
+}
+
+.content {
+  background: black;
+  border-radius: 25px;
+  padding-top: 25px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+}
+
+h1 span:nth-child(-n + 3) {
+  color: #F87F21;
+}
+
+h1 span:nth-child(n + 8) {
+  color: #06c;
+}
+
+.flat_tire {
+  display: block;
+  margin-bottom: 10%;
+  border-radius: 25px;
+}
+
+.desc{
+  background: white;
+  border-radius: 10px;
+  padding: 8px;
+  margin-right: 25px;
+  font-size: 20px;
+}
+
+.panel {
+    position: fixed;
+    left: -15.625em; /*left or right and the width of your navigation panel*/
+    width: 15.625em; /*should match the above value*/
+}
+
+.wrap {
+    position: relative;
+}
